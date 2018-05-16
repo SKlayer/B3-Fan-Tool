@@ -5,7 +5,9 @@ def tim():
 def init():
 	print("""
 	B3风扇调速工具 第一步输入IP地址，之后输入风扇转速比值0到100调速。
+	B3 Fan speed ctrl tool. first input miner's ip address,then input speed value 0~100.
 	本工具可用于T9+控制器的机型 切记B3芯片尽量不要超过60度，否则不稳定
+	Warning !! Don't make B3 chip over 60 C. It will make your miner dead!!
 	BTM FAN TOOL    BY Sklayer.........
 	""")
 	global cmd
