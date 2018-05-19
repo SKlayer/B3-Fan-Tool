@@ -1,7 +1,5 @@
 import time,paramiko,_thread
 cmd ="devmem2 0x43c00084 w 0x0000064"
-def tim():
-	return(str(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))))
 def init():
 	print("""
 	B3风扇调速工具 第一步输入IP地址，之后输入风扇转速比值0到100调速。
